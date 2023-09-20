@@ -1,0 +1,46 @@
+body
+{
+    background: linear-gradient(rgb(229, 245, 121),rgb(220, 155, 255));
+}
+
+h1
+{
+    background-color: rgb(244, 218, 115);
+    color: rgb(54, 215, 255);
+}
+
+#your_sketch 
+{
+    float:right;
+}
+
+#score
+{
+    font-size: 21px;
+    font-family:'Oswald',sans-serif;
+    margin-left: 5px;
+}
+
+#timer
+{
+    float: middle;
+    font-size: 21px;
+    font-family:'Oswald',sans-serif;
+    margin-right: 5px;
+}
+
+canvas
+{
+border: 5px solid rgb(255, 216, 176);
+border-radius: 5px;
+animation-name: canvas;
+animation-duration: 5s;
+margin-top: 50px;
+animation-iteration-count: infinite;
+}
+
+@keyframes canvas
+{
+from{box-shadow: 3px 2px 40px #e85500;}
+to{box-shadow: 3px 2px 40px rgb(69, 168, 255);}
+}
